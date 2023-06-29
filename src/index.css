@@ -1,0 +1,78 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+}
+
+#dp{
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 100%;
+  width:300px;
+}
+
+#but{
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 100%;
+}
+
+#car{
+  width:100%;
+  height:400px;
+  padding-top: 100px;
+  border-radius: 10px;
+}
+
+.width150{
+  width:150px;
+}
+
+#cm{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+form{
+  color: #FFF;
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 5);
+  border-radius: 10px;
+  padding: 50px;
+}
+
+form .field{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+
+form label{
+  text-align: left;
+}
+
+#cm textarea{
+  width:100%;
+}
+
+#cm input{
+  width:100%;
+}
+
+#cf{
+  min-width: 350px;
+}
+#ct{
+  margin-top:100px;
+}
+footer{
+    color: #FFFFFF;
+    text-align:center;
+    position:absolute; 
+    width:100%;
+}
+
+#about{
+  background-image: url("./images/react-git-bg.png");
+  background-size: 2000px;
+}
